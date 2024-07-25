@@ -4727,9 +4727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Menu_Panel: {fileID: 0}
   Select_Level: {fileID: 1541199144}
-  Title_Panel: {fileID: 0}
-  Control_Panel: {fileID: 0}
-  Credits_Panel: {fileID: 0}
+  Title_Panel: {fileID: 685027316}
+  Control_Panel: {fileID: 863524956}
+  Credits_Panel: {fileID: 336547050}
 --- !u!114 &2114835565
 MonoBehaviour:
   m_ObjectHideFlags: 0

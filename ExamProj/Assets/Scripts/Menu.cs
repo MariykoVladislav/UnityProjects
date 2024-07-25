@@ -58,6 +58,8 @@ public class Menu : MonoBehaviour
 
     public void LoadTrainingLevel()
     {
+        PlayerController.isPaused = false;
+        PlayerController.isDead = false;
         SceneManager.LoadScene(1);
     }
 
@@ -68,16 +70,21 @@ public class Menu : MonoBehaviour
 
     public void LoadLevel1()
     {
+        PlayerController.isPaused = false;
+        PlayerController.isDead = false;
         SceneManager.LoadScene(2);
     }
     public void LoadLevel2()
     {
+        PlayerController.isPaused = false;
+        PlayerController.isDead = false;
         SceneManager.LoadScene(3);
     }
 
     public void RestartLevel()
     {
         PlayerController.isDead = false;
+        PlayerController.isPaused = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

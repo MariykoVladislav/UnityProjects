@@ -8,6 +8,7 @@ public class Notification : MonoBehaviour
 
     public void Ok()
     {
+        PlayerController.isPaused = false;
         NotificationPanel.SetActive(false);
         Time.timeScale = 1;
     }
