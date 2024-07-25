@@ -16,6 +16,7 @@ public class Notification : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            PlayerController.isPaused = true;
             NotificationPanel.SetActive(true);
             Time.timeScale = 0;
         }
